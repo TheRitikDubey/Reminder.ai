@@ -101,7 +101,7 @@ const HomeScreen = () => {
     <SafeAreaView style={styles.container}>
       {/* Header */}
       <View style={styles.header}>
-        <Text style={styles.title}>My Todos</Text>
+        <Text style={styles.title}>Reminders</Text>
         <Text style={styles.stats}>
           {completedCount}/{totalCount} completed
         </Text>
